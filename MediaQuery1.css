@@ -1,0 +1,17 @@
+.a{
+    width:500px;
+    height:200px;
+    background-color: blue;
+}
+/* @media (max-width:60%)
+{
+    button{
+    background-color: black;
+
+    }
+} */
+ @media screen and (max-width:650px){
+    .a{
+        background-color: aqua;
+    }
+ }

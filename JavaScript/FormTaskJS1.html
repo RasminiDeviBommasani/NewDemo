@@ -1,0 +1,183 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./FormTaskJS2.css">
+        <script src="./FormTaskJS3.js"></script>
+    </head>
+    <body>
+        <div class="parent">
+
+
+        <div class="first_name" >
+            <div class="name1">First Name:</div>
+            <div class="texting1">
+                <input type="text" class="testy1" onchange="firstName(event)">
+            </div>
+        </div>   
+
+
+        <div class="second_name">
+            <div class="name2">Second Name:</div>
+            <div class="texting2">
+                <input type="text" class="testy2" onchange="secondName(event)">
+            </div>
+        </div>   
+
+
+        <div class="DOB">
+            <div class="name3">DOB:</div>
+            <div class="texting3">
+                <input type="date" class="testy3" onchange="DOB(event)">
+            </div>
+        </div>   
+
+
+        <div class="Age">
+            <div class="name4">Age:</div>
+            <div class="texting4">
+                <input type="number" class="testy4" onchange="Age(event)">
+            </div>
+        </div>  
+        
+        
+        <div class="Father_Name">
+            <div class="name5">Father Name:</div>
+            <div class="texting5">
+                <input type="text" class="testy5" onchange="Fname(event)">
+            </div>
+        </div>  
+
+        <div class="Mother_Name">
+            <div class="name6">Mother Name:</div>
+            <div class="texting6">
+                <input type="text" class="testy6" onchange="Mname(event)">
+            </div>
+        </div>  
+
+        <div class="Address">
+            <div class="name7">Address:</div>
+            <div class="texting7">
+                <textarea class="testy7"  onchange="Addre(event)"></textarea>
+            </div>
+        </div>  
+
+        <div class="gender">
+            <div class="name8">Gender:</div>
+            <div class="texting8">
+                <div class="testy8">
+                <select class="opt" onchange="gender(event)">
+                    <option>Male</option>
+                    <option>female</option>
+                </select>
+                </div>
+            </div>
+        </div>  
+
+        <div class="Certifications">
+            <div class="name9">Certifications:</div>
+            <div class="texting9">
+                
+                 <textarea class="testy9" onchange="certificate(event)"></textarea>
+            </div>
+        </div> 
+  
+
+        <div class="Academic_Details">
+            <div class="Aca_Name">Academic details</div>
+            <div class="tabl">
+                <table class="wow" border="1">
+                    <tr>
+                        <th>Qualification</th>
+                        <th>Name Of The Institute</th>
+                        <th>Year of Passed Out</th>
+                        <th>Percentage</th>
+
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="reo" onchange="q1(event)"></td>
+                        <td><input type="text" class="reo" onchange="q2(event)"></td>
+                        <td><input type="text" class="reo" onchange="q3(event)"></td>
+                        <td><input type="text" class="reo" onchange="q4(event)"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="reo" onchange="n1(event)"></td>
+                        <td><input type="text" class="reo" onchange="n2(event)"></td>
+                        <td><input type="text" class="reo" onchange="n3(event)"></td>
+                        <td><input type="text" class="reo" onchange="n4(event)"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="reo" onchange="p1(event)"></td>
+                        <td><input type="text" class="reo" onchange="p2(event)"></td>
+                        <td><input type="text" class="reo" onchange="p3(event)"></td>
+                        <td><input type="text" class="reo" onchange="p4(event)"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+
+
+        <div class="Skills_parent">
+            <div class="skills_text">Skills:</div>
+            <div class="skills">
+                <textarea class="skills_matter" onchange="skill(event)">
+
+                </textarea>
+            </div>
+        </div>
+
+
+        <div class="Hobbies_parent">
+            <div class="Hobbies_text">Hobbies:</div>
+            <div class="Hobbies_matter">
+                <textarea class="Hobbies_content" onchange="hobbie(event)">
+
+                </textarea>
+            </div>
+        </div>
+
+
+        <div class="profilepic">
+            <div class="Ppic_text">Profile:</div>
+            <div class="Ppic_document">
+                 <input type="file" class="picking" onchange="pict(event)">
+            </div>
+        </div>
+
+
+
+
+
+        <div class="badges_parent">
+            <div class="badges_text">Badges:</div>
+            <div class="badges">
+                <input type="url" placeholder="Submit in the form links" class="badge_urls" onchange="badge(event)">
+            </div>
+        </div>
+
+        <div class="Declaration_parent">
+            <div class="Declaration_text">Declaration:</div>
+            <div class="Declaration">
+                <textarea class="dec_matter" onchange="declara(event)"></textarea>
+            </div>
+        </div>
+
+
+
+        <div class="signature_parent">
+            <div class="signature">
+                <div class="sign_content">Signature:</div>
+                <div class="sign">
+                    <input type="text" placeholder="sign" class="signing_of"  onchange="signat(event)">
+                </div>
+            </div>
+            <div class="subm">
+                <button type="submit" class="submiting" onclick="sub(event)">Submit</button>
+            </div>
+        </div>
+
+
+        
+
+        </div>
+    </body>
+</html>

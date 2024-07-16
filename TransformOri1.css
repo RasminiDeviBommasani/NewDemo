@@ -1,0 +1,17 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 20px;
+    /* transform-origin: left; */
+}
+.parent{
+    width:50%;
+    height:60%;
+    border:5px solid rgb(45, 22, 175);
+    transform-style: preserve-3d;
+    background-color: black;
+    transform-origin: left;
+    /* transform-origin: bottom; */
+    transform: rotateY(40deg);
+}

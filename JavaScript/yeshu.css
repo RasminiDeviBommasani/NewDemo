@@ -1,0 +1,120 @@
+.lastpage{
+    width: 100%;
+    background-color: #7057FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lastpage1{
+    width: 100%;
+    background-color: #7057FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #F2F2F2;
+}
+.lastpage2{
+    width: 100%;
+    background-color:#333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.lastpageicons{
+    height: 100px;
+    width: 30%;
+    /* background-color: rgb(74, 158, 232); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lastpageunderline{
+    height: 10px;
+    width: 100px;
+    background-color: white;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.followus{
+    font-size: 40px;
+    padding-top: 30px;
+}
+.lastpage2content{
+    width: 30%;
+    padding-top: 30px;
+    /* background-color: red; */
+    color: #F2F2F2;
+}
+.lastpage2content2{
+    color: #F2F2F2;
+}
+.ending{
+    width: 30%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: white;
+    /* text-decoration: skyblue; */
+}
+.lasticon1{
+    height: 50%;
+    width: 10%;
+    border-radius: 100%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+#yeshu1{
+    /* width:120%;
+    height:120%; */
+    border:1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    color:#eeecf8;
+}
+#yeshu2{
+    /* width:120%;
+    height:120%; */
+    border:1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    color:#eeecf8;
+}
+#yeshu3{
+    /* width:120%;
+    height:120%; */
+    border:1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    color:#eeecf8;
+}
+#yeshu4{
+    /* width:120%;
+    height:120%; */
+    border:1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    color:#eeecf8;
+}
+#yeshu5{
+    /* width:120%;
+    height:120%; */
+    border:1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    color:#eeecf8;
+}

@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.parent{
+         width:50%;
+         height:40%;
+         /* border:1px solid green; */
+         display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.child{
+    width:90%;
+    height:60%;
+    /* border:1px solid black; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hello{
+    width:85%;
+    height:100%;
+    /* border:1px solid green; */
+    /* justify-self: center;
+    align-self: center; */
+    background-image: url("./suryA.jpg");
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+ul button{
+    display:none;
+    position:absolute;
+    
+}
+.slick-dots{
+    display: flex;
+    gap:5%;
+   justify-content: center;
+   font-size:150%;
+
+}
+.slick-active{
+    color:blue;
+}
+.slick-prev{
+    position:absolute;
+    left:-19%;
+    bottom:50%;
+    color:rgb(242, 242, 248);
+    background-color: rgb(102, 120, 121);
+    height:15%;
+    width:15%;
+    border-radius: 15px;
+    font-size: 120%;
+}
+.slick-next{
+    position:absolute;
+    right:-19%;
+    bottom:50%;
+    color:rgb(242, 242, 248);
+    background-color: rgb(102, 120, 121);
+    height:15%;
+    width:15%;
+    border-radius: 15px;
+    font-size: 120%;
+    /* border-collapse: collapse; */
+    outline: none;
+}

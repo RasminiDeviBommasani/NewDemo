@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Table</title>
+    <style>
+        .but {
+            width: 15%;
+            height: 6%;
+            border-radius: 15px;
+            font-size: 155%;
+            background-color: grey;
+        }
+        body {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .tab1 {
+            width: 50%;
+            height: 20%;
+            border: 1px solid blue;
+            border-collapse: collapse;
+        }
+        .tab1 th, .tab1 td {
+            border: 1px solid gold;
+            text-align: center;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <button class="but">Click Me</button>
+    <table></table>
+
+    <script>
+        var button1 = document.getElementsByClassName("but")[0];
+        button1.onclick = fun;
+
+        function fun() {
+            var tab = document.getElementsByTagName("table")[0];
+            tab.setAttribute("class", "tab1");
+
+            // Clear existing table content
+            tab.innerHTML = '';
+
+            var headers = ["Name", "Roll No", "Branch", "CGPA", "Update", "Delete"];
+            var data = [
+                ["Rasmini", "22A91A61E1", "AIML", "9.3"],
+                ["Junaid", "22A91A6144", "AIML", "9.2"]
+            ];
+
+            var row1 = document.createElement("tr");
+            headers.forEach(header => {
+                var cell = document.createElement("th");
+                cell.innerHTML = header;
+                row1.appendChild(cell);
+            });
+            tab.appendChild(row1);
+
+            data.forEach(rowData => {
+                var row = document.createElement("tr");
+                rowData.forEach(cellData => {
+                    var cell = document.createElement("td");
+                    cell.innerHTML = cellData;
+                    row.appendChild(cell);
+                });
+                var updateCell = document.createElement("td");
+                updateCell.innerHTML = '<button>Update</button>';
+                row.appendChild(updateCell);
+
+                var deleteCell = document.createElement("td");
+                deleteCell.innerHTML = '<button>Delete</button>';
+                row.appendChild(deleteCell);
+
+                tab.appendChild(row);
+            });
+
+            button1.style.position = "absolute";
+            button1.style.top = "100px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+/*
+.mydiv
+{
+
+    font-size: 64px;
+    border-top-width:10px;
+    border-bottom-width: 10px;
+    border-right-width: 20px;
+    border-left-width: 20px;
+ 
+ 
+
+
+ border-bottom-style:dotted ;
+ border-left-style: double;
+ border-right-style:groove;
+ border-top-style:dashed;
+
+ border-bottom-color:aquamarine;
+ border-left-color:blue;
+ border-top-color: red;
+ border-right-color: yellow;
+
+
+
+border-color: brown;
+border-style: dashed;
+
+
+border-width: 2px 20px 10px;
+border-style: groove;
+
+border:20px dotted yellowgreen;
+
+max-width: 1000px;
+width: 100%;
+border-style:dotted
+
+
+
+
+min-width: 600px;
+width: 100%;
+border-style: dashed;
+
+
+font-size: 20px;
+width:fit-content;
+height: 30svh;
+border:20px groove blue;
+
+font-size: 20px;
+width:fit-content;
+height: 50vh;
+border:20px groove blue;
+
+border:3px dotted yellow;
+height:2svh;
+
+
+
+
+
+
+
+
+
+} 
+.mydiv2
+{
+    border:2px dashed blue;
+    height:20svh;
+    margin-top: 30px;
+}
+
+
+.a
+{
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+}
+.b
+{
+    border-style:solid;
+    border-width:2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+    margin: 2px 2px 2px 2px;
+}
+*/
+/*.a{
+    border:20px solid green;
+    
+    margin:3px 2px 2px 2px;
+    padding:2px 2px 2px 2px;
+}
+
+.a1
+{
+    border:2px dashed yellow;
+    
+    margin: 10px 10px 10px 10px;
+
+}
+.a2
+{
+    border:3px solid blue;
+   
+    margin:2px 2px 2px 2px;
+    padding:1px 1px 1px 1px;
+    border-radius: 2px ;
+}
+    */
+    h2{
+        text-align: bottom;
+    }
+
+    .a
+    {
+       /* border:3px solid blue;
+        width:25%;
+        height:25%;
+        border-top-left-radius: 30%;
+        border-bottom-right-radius:30%;*/
+        border-style:solid;
+        width:15%;
+        height:45%;
+        border-radius:40%;
+        border-color: brown;
+        /*
+        border-top-left-radius:25%;
+        border-top-right-radius:25%;*/
+        box-shadow:10px 20px  5px 6px rgb(158, 60, 60);
+        background-color: aquamarine; 
+
+
+    }
+

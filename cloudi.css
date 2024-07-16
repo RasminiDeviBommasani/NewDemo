@@ -1,0 +1,64 @@
+.parent{
+    width:100%;
+    height:100%;
+    border:2px solid black;
+   
+}
+.child1{
+    width:99%;
+    height:20%;
+    border:2px solid brown;
+    padding-left: 4px;
+    position: relative;
+}
+    .child11{
+    width:10%;
+    height:100%;
+    border: 2px solid green;
+    position:absolute;
+    right:605px;
+    /* border-top-right-radius: 50px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px; */
+}
+
+
+.child12{
+    width:8%;
+    height:100%;
+    border: 2px solid green;
+    position:absolute;
+    right:537px;
+    
+
+}
+
+/* .child13{
+    width:10%;
+    height:100%;
+    border: 2px solid green;
+    position:absolute;
+    right:605px;
+    
+
+}
+
+.child14{
+    width:10%;
+    height:100%;
+    border: 2px solid green;
+    position:absolute;
+    right:605px;
+    
+
+}
+
+.child15{
+    width:10%;
+    height:100%;
+    border: 2px solid green;
+    position:absolute;
+    right:605px;
+    
+
+} */

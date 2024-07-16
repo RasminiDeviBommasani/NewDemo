@@ -1,0 +1,39 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    display: flex;
+    width:70%;
+    height: 30%;
+    border:1px solid black;
+    justify-content: space-between;
+}
+.hours{
+    width: 30%;
+    height: 100%;
+    border:1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 320%;
+}
+.minutes{
+    width: 30%;
+    height: 100%;
+    border:1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 320%;
+}
+.seconds{
+    width: 30%;
+    height: 100%;
+    border:1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 320%;
+}

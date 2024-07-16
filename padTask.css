@@ -1,0 +1,89 @@
+.a
+{
+    margin-left: 35%;
+
+    margin-top: 5%;
+    background-color: rgb(241, 243, 243);
+    width:500px;
+    height:60svh;
+    
+    border-color:black;
+    border-style: solid;
+    box-shadow:3px 4px 5px 4px black;
+
+    
+
+   
+}
+.a1{
+    border-style: solid;
+
+    width:350px;
+    height:45svh;
+    border:20px 20px 20px 20px;
+    border-color:rgb(20, 24, 9);
+    margin:50px 30px 30px 90px;
+    border-radius: 50%;
+    background-color: rgb(170, 237, 241);
+    
+}
+.a11
+{
+border-style: solid;
+border-color: black;
+width: 30%;
+height:20%;
+margin:50px 0px 0px 70px;
+float:left;
+border-top-right-radius: 60%;
+border-bottom-left-radius:50%;
+background-color: aliceblue;
+
+
+}
+.a12
+{
+    border-style: solid;
+border-color: black;
+width: 30%;
+height:20%;
+float:right;
+
+margin:50px 60px 0px 0px;
+
+border-top-left-radius: 50%;
+border-bottom-right-radius:60%;
+background-color: aliceblue;
+}
+.a13
+{
+border-style: solid;
+border-color: black;
+width: 40%;
+height:20%;
+float:bottom;
+
+margin:170px 30px 30px 100px;
+background-color: aliceblue;
+}
+.a111
+{
+    border-style: solid;
+    width:35px;
+    height:25px;
+    margin:15px 0px 0px 35px;
+    border-radius: 50%;
+    background-color: black;
+
+}
+.a121
+{
+    border-style: solid;
+    width:35px;
+    height:25px;
+    margin:15px 0px 0px 35px;
+    border-radius:50%;
+    background-color: black;
+
+}
+

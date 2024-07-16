@@ -1,0 +1,21 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    width:20%;
+    height:40svh;
+    border:2px solid green;
+    background-color: yellow;
+    font-size: 50px;
+    /* transform:rotate(30deg); */
+    /* transform: rotateY(120deg); */
+    /* transform: rotateY(60deg); */
+    /* transform: rotateX(100deg); */
+    /* transform: rotateY(100deg); */
+    /* transform:translateY(px); */
+    /* transform: scale(2);*/
+    /* transform: skewX(70deg); */
+   transform: skewX(60deg);
+}

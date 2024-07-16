@@ -1,0 +1,58 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border:1px solid green;
+}
+.bun{
+    width:18%;
+    height:65%;
+    /* border:5px solid black; */
+    background-color: #bcbcbc;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px 2px black;
+}
+.box{
+    width:90%;
+    height:90%;
+    border:5px solid black;
+    background-color: #bcbcbc;
+    border-radius: 20px;
+    
+}
+.Rolls{
+    width:100%;
+    border-bottom:5px solid black;
+    height:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 450%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+.R{
+    width:100%;
+    height:60%;
+    border-bottom:5px solid black;
+    font-size: 1200%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-shadow: -40px -25px 1px  black;
+    font-family:'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+}
+.Royce{
+    width:100%;
+    /* border:1px solid gold; */
+    height:20%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 430%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;  
+}

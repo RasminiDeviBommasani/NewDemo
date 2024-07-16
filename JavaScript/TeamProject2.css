@@ -1,0 +1,217 @@
+
+.parent2{
+    width:100%;
+    height:80%;
+    border:1px solid black;
+    background-color: rgb(115, 90, 253);
+}
+.Content{
+    width:100%;
+    height: 30%;
+    /* border:1px solid brown; */
+    color:white;
+}
+.Content1{
+    width:100%;
+    height: 65%;
+    /* border:1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 200%;
+
+}
+.Content2{
+    width:100%;
+    height: 35%;
+    /* border:1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70%;
+    
+}
+
+.summary_data{
+    width:100%;
+    height:70%;
+    /* border:1px solid black; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.summary_boxes{
+    width:70%;
+    height: 90%;
+    /* border:1px solid green; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.summary_box_parent1{
+    width:28%;
+    height:95%;
+    /* border:2px solid rgb(255, 253, 253); */
+    border-radius: 20px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    perspective: 1000px;
+    
+}
+.summary_box1{
+    width:100%;
+    height:100%;
+    /* border:2px solid rgb(255, 253, 253); */
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    color:rgb(93, 66, 243);
+    position:absolute;
+    transform-style:preserve-3d;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+    transition: all 5s;
+}
+.summary_box2{
+    width:100%;
+    height:100%;
+    /* border:2px solid rgb(255, 253, 253); */
+    border-radius: 20px;
+    background-color: rgb(19, 19, 15);
+    color:rgb(93, 66, 243);
+    position:absolute;
+    transform-style:preserve-3d;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: all 5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.summary_box_parent1:hover .summary_box1{
+    transform:rotateY(-180deg);
+}
+.summary_box_parent1:hover .summary_box2{
+    transform:rotateY(0deg);
+}
+.logoer{
+    width: 100%;
+    height:25%;
+    /* border:1px solid black;  */
+    position:relative;
+}
+.logo_image1{
+    position:absolute;
+    width:30%;
+    height:95%;
+    /* border:1px solid black; */
+    bottom:50%;
+    left:35%;
+    border-radius: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0EDFF;
+    font-size: 230%;
+}
+#ras1{
+    background-color: transparent;
+}
+.logo_image2{
+    position:absolute;
+    width:30%;
+    height:95%;
+    /* border:1px solid black; */
+    bottom:50%;
+    left:35%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0EDFF;
+    font-size: 200%;
+}
+.logo_image3{
+    position:absolute;
+    width:30%;
+    height:95%;
+    /* border:1px solid black; */
+    bottom:35%;
+    left:35%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0EDFF;
+    font-size: 200%;
+}
+.logo_Head{
+    width:100%;
+    height:10%;
+    /* border:1px solid brown; */
+    display: flex;
+    justify-content: center;
+}
+.logo_content{
+    width:100%;
+    height:45%;
+    /* border:1px solid gold; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo_content_box1{
+    width:80%;
+    height:40%;
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+@media screen and (max-width:700px)
+{
+ .logo_content_box1{
+    height:fit-content;
+ }
+}
+@media screen and (max-width:700px)
+{
+ .logo_content{
+    height:fit-content;
+ }
+}
+@media screen and (max-width:100px)
+{
+ .butt1{
+    width:fit-content;
+ }
+}
+.logo_content_box2{
+    width:80%;
+    height:60%;
+    /* border:1px solid red; */
+    padding-left:5%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: start;
+   /* font-size: 98%; */
+}
+.logo_button{
+    width:100%;
+    height:18%;
+    /* border:1px solid green;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.butt1{
+     width:30%;
+     height: 70%;
+     border:2px solid rgb(117, 58, 246);
+}

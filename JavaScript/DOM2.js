@@ -1,0 +1,1 @@
+console.log(document.getElementsByClassName("hey")[0])

@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height:6%;
+    border:1px solid green;
+    position:absolute;
+    left:38%;
+}
+.hours{
+    width:33%;
+
+    height:100%;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.minutes{
+    width:33%;
+
+    height:100%;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seconds{
+    width:33%;
+
+    height:100%;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.butt{
+    position:absolute;
+    width: 30%;
+    height: 20%;
+    bottom:25%;
+    right:30%;
+}

@@ -1,0 +1,48 @@
+.pro{
+    width:100%;
+    height:200svh;
+    background-color: aqua;
+    position:relative;
+    left:10px;
+    border-color: blueviolet;
+    border-style: solid;
+}
+/* .fun
+{
+    border-color: rgb(231, 138, 25);
+    background-color: black;
+    border-style:solid;
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:0;
+    left:10;
+
+    
+
+   
+}
+ */
+/* .fun
+{
+    width:20%;
+    height:20%;
+    background-color: brown;
+    top:0px;
+    position:fixed
+   
+    border-color: green ;
+    
+}
+ */
+ .fun{
+    width:50px;
+    height:50px;
+    background-color:rgb(19, 11, 170);
+    position:sticky;
+    
+    border-style:solid ;
+    top:90;
+ }
+ 
+ 

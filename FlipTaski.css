@@ -1,0 +1,309 @@
+
+.parent{
+    width:800px;
+    height:100svh;
+    border:1px solid black;
+    display:flex;
+    flex-direction: column;
+
+    
+}
+.child1{
+    width:100%;
+    height: 50svh ;
+    /* border:1px solid brown; */
+    display:flex;
+    justify-content:center;
+    justify-content: space-around;
+    align-items: center;
+}
+.a1{
+    width:200px;
+    height:90%;
+    border:2px solid black;
+    border-radius:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    
+
+    
+}
+.x1{
+    width:90%;
+    height:200px;
+    /* border:1px solid brown; */
+    background-image: url("./cake1.jpg");
+    background-size: 100% 100%;
+
+
+    
+}
+.x2{
+    width:90%;
+    height:40px;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ras1{
+    width:150px;
+    height:30px;
+    /* border:1px solid red; */
+    justify-items:center;
+    align-items:start;
+       
+}
+.ras2{
+    width:50px;
+    height:30px;
+    /* border:1px solid red;
+     */
+    font-size: 15px;
+    
+}
+.x3{
+    position:absolute;
+    width:3px;
+    height:40px;
+    /* border:2px solid brown; */
+    background-color: blue;
+    left:1px;
+    top:40px;
+}
+
+.y1{
+    width:90%;
+    height:200px;
+    /* border:1px solid brown; */
+    background-image: url("./chocolatecake.jpeg");
+    background-size: 100% 100%;
+    
+}
+
+
+.y2{
+    width:90%;
+    height:40px;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.y3{
+    position:absolute;
+    width:3px;
+    height:40px;
+    /* border:2px solid brown; */
+    background-color: blue;
+    left:1px;
+    top:40px;
+}
+
+.frnd1{
+    width:150px;
+    height:30px;
+    /* border:1px solid red; */
+    justify-items:center;
+    align-items:start;
+       
+}
+.frnd2{
+    width:50px;
+    height:30px;
+    /* border:1px solid red; */
+    
+    font-size: 15px;
+    
+}
+
+.z1{
+    width:90%;
+    height:200px;
+    /* border:1px solid brown; */
+    background-image: url("./Icecreamcake.jpg");
+    background-size: 100% 100%;
+    position:relative;
+}
+
+.z2{
+    width:90%;
+    height:40px;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.z3
+{
+    position:absolute;
+    width:3px;
+    height:40px;
+    /* border:2px solid brown; */
+    background-color: blue;
+    left:1px;
+    top:40px;
+}
+
+.dev1{
+    width:150px;
+    height:30px;
+    /* border:1px solid red; */
+    justify-items:center;
+    align-items:start;
+       
+}
+.dev2{
+    width:50px;
+    height:30px;
+    /* border:1px solid red; */
+    
+    font-size: 15px;
+    
+}
+
+
+.child2{
+    width:100%;
+    height: 50svh ;
+    /* border:1px solid rgb(137, 221, 12); */
+    display:flex;
+    justify-content:center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.g1{
+    width:90%;
+    height:200px;
+    /* border:1px solid brown; */
+    background-image: url("./saladCake.jpeg");
+    background-size: 100% 100%;
+}
+
+.g2{
+    width:90%;
+    height:40px;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.g3{
+    position:absolute;
+    width:3px;
+    height:40px;
+    /* border:2px solid brown; */
+    background-color: blue;
+    left:1px;
+    top:40px;
+}
+
+.hero1{
+    width:150px;
+    height:30px;
+    /* border:1px solid red; */
+    justify-items:center;
+    align-items:start;
+       
+}
+.hero2{
+    width:50px;
+    height:30px;
+    /* border:1px solid red; */
+    
+    font-size: 15px;
+    
+}
+
+.h1{
+    width:90%;
+    height:200px;
+    /* border:1px solid brown; */
+    background-image: url("./strawberry.jpeg");
+    background-size: 100% 100%;
+}
+
+.h2{
+    width:90%;
+    height:40px;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h3{
+    position:absolute;
+    width:3px;
+    height:40px;
+    /* border:2px solid brown; */
+    background-color: blue;
+    left:1px;
+    top:40px;
+}
+
+.sumo1{
+    width:150px;
+    height:30px;
+    /* border:1px solid red; */
+    justify-items:center;
+    align-items:start;
+       
+}
+.sumo2{
+    width:50px;
+    height:30px;
+    /* border:1px solid red; */
+    
+    font-size: 15px;
+    
+}
+
+.i1{
+    width:90%;
+    height:200px;
+    /* border:1px solid brown; */
+    background-image: url("./oreo.webp");
+    background-size: 100% 100%;
+}
+
+.i2{
+    width:90%;
+    height:40px;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dumo1{
+    width:150px;
+    height:30px;
+    /* border:1px solid red; */
+    justify-items:center;
+    align-items:start;
+       
+}
+.dumo2{
+    width:50px;
+    height:30px;
+    /* border:1px solid red; */
+    
+    font-size: 15px;
+    
+}
+.i3
+{
+    position:absolute;
+    width:3px;
+    height:40px;
+    /* border:2px solid brown; */
+    background-color: blue;
+    left:1px;
+    top:40px;
+}

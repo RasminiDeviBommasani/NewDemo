@@ -1,0 +1,170 @@
+.parent{
+    width:100%;
+    height:100svh;
+    border:1px solid blue;
+    display: flex;
+}
+.child1{
+ width:100%;
+ height:100svh;
+ border:1px solid black;
+ background-color: aquamarine;
+}
+.child2{
+    width:100%;
+    height:100%;
+    border:1px solid black;
+    /* background-color: palegoldenrod; */
+   }
+.child3{
+    width:100%;
+    height:100%;
+    border:1px solid black;
+    background-color: bisque;
+}
+.header1{
+    width:100%;
+    height:10%;
+    border:1px solid green;
+    display:flex;
+    justify-content: space-between;
+}
+.three_liner{
+    width:20%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid green;
+}
+.logoss{
+    width: 80%;
+    height:100%;
+    border:1px solid blue;
+    font-size: 190%;
+    font-weight: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Home{
+    width: 25%;
+    height:100%;
+    border:1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+}
+.Home1{
+    width:25%;
+    height:100%;
+    border:1px solid brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+}
+.Home2{
+    width:25%;
+    height:100%;
+    border:1px solid gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+}
+.Home3{
+    width: 25%;
+    height: 100%;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+}
+.body1{
+    width: 100%;
+    height: 90%;
+    border:1px solid brown;
+    display:flex;
+    flex-wrap: wrap;
+    display: none;
+
+}
+.left{
+    width:230px;
+    height:560px;
+  border:1px solid black;
+  background-image:url("./suryA.jpg");
+  background-size: 100% 100%;
+}
+.middle{
+    width:230px;
+  height:560px;
+  border:1px solid black;
+  background-image:url("./nani.jpg");
+  background-size: 100% 100%;
+}
+.right{
+    width:230px;
+  height:560px;
+    border:1px solid black;
+    background-image:url("./ntr.jpeg");
+    background-size: 100% 100%;
+}
+.logo{
+    width:20%;
+    height: 100%;
+    border:1px solid red;
+    display: flex;
+}
+.content{
+    width:50%;
+    height:100%;
+    border:1px solid black;
+    display: flex;
+   
+}
+
+.iconic{
+    width:10%;
+    height:100%;
+    border:1px solid brown;
+    display:flex;
+    
+}
+.search{
+    width:35%;
+    height: 100%;
+    border:1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+}
+.contact{
+    width:35%;
+    height: 100%;
+    border:1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+}
+.bag{
+    width:35%;
+    height: 100%;
+    border:1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+}
+ul button{
+    display: none;
+}
+.slick-dots{
+    display: flex;
+    gap:5%;
+}

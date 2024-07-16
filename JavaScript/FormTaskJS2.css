@@ -1,0 +1,559 @@
+body{
+    width:100%;
+    height:200svh;
+    border:1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+     width:55%;
+     height: 97%;
+     border:1px solid brown;
+}
+.first_name{
+
+    width:100%;
+    height:3%;
+    border:1px solid green;
+    display: flex;   
+    
+}
+.name1{
+    width: 20%;
+    height: 100%;
+    border:1px solid gold;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    
+}
+.texting1{
+    width: 70%;
+    height:100%;
+    border:1px solid brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testy1{
+    width: 100%;
+    height:80%;
+    border:1px solid brown;
+    border-radius: 20px;
+    outline: none;
+}
+
+
+.second_name{
+
+    width:100%;
+    height:3%;
+    border:1px solid green;
+    display: flex;   
+    
+}
+.name2{
+    width: 20%;
+    height: 100%;
+    border:1px solid gold;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    
+}
+.texting2{
+    width: 70%;
+    height:100%;
+    border:1px solid brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testy2{
+    width: 100%;
+    height:80%;
+    border:1px solid brown;
+    border-radius: 20px;
+    outline: none;
+}
+
+
+.DOB{
+
+    width:100%;
+    height:3%;
+    border:1px solid green;
+    display: flex;   
+    
+}
+.name3{
+    width: 20%;
+    height: 100%;
+    border:1px solid gold;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    
+}
+.texting3{
+    width: 70%;
+    height:100%;
+    border:1px solid brown;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.testy3{
+    width: 50%;
+    height:80%;
+    border:1px solid brown;
+    border-radius: 20px;
+    outline: none;
+}
+
+.Age{
+
+    width:100%;
+    height:3%;
+    border:1px solid green;
+    display: flex;   
+    
+}
+.name4{
+    width: 20%;
+    height: 100%;
+    border:1px solid gold;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    
+}
+.texting4{
+    width: 70%;
+    height:100%;
+    border:1px solid brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testy4{
+    width: 100%;
+    height:80%;
+    border:1px solid brown;
+    border-radius: 20px;
+    outline: none;
+}
+
+
+.Father_Name{
+
+    width:100%;
+    height:3%;
+    border:1px solid green;
+    display: flex;   
+    
+}
+.name5{
+    width: 20%;
+    height: 100%;
+    border:1px solid gold;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    
+}
+.texting5{
+    width: 70%;
+    height:100%;
+    border:1px solid brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testy5{
+    width: 100%;
+    height:80%;
+    border:1px solid brown;
+    border-radius: 20px;
+    outline: none;
+}
+
+.Mother_Name{
+
+    width:100%;
+    height:3%;
+    border:1px solid green;
+    display: flex;   
+    
+}
+.name6{
+    width: 20%;
+    height: 100%;
+    border:1px solid gold;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    
+}
+.texting6{
+    width: 70%;
+    height:100%;
+    border:1px solid brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testy6{
+    width: 100%;
+    height:80%;
+    border:1px solid brown;
+    border-radius: 20px;
+    outline: none;
+}
+
+.Address{
+
+    width:100%;
+    height:3%;
+    border:1px solid green;
+    display: flex;   
+    
+}
+.name7{
+    width: 20%;
+    height: 100%;
+    border:1px solid gold;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    
+}
+.texting7{
+    width: 70%;
+    height:100%;
+    border:1px solid brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testy7{
+    width: 100%;
+    height:80%;
+    border:1px solid brown;
+    border-radius: 20px;
+    outline: none;
+}
+
+
+.gender{
+
+    width:100%;
+    height:3%;
+    border:1px solid green;
+    display: flex;   
+    
+}
+.name8{
+    width: 20%;
+    height: 100%;
+    border:1px solid gold;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    
+}
+.texting8{
+    width: 70%;
+    height:100%;
+    border:1px solid brown;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.testy8{
+    width: 100%;
+    height:80%;
+    border:1px solid brown;
+    border-radius: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    outline: none;
+}
+.opt{
+    width:30%;
+    height: 90%;
+    border-radius: 20px;
+}
+
+.Certifications{
+
+    width:100%;
+    height:10%;
+    border:1px solid green;
+    display: flex;   
+    
+}
+.name9{
+    width: 20%;
+    height: 100%;
+    border:1px solid gold;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    
+}
+.texting9{
+    width: 70%;
+    height:100%;
+    border:1px solid brown;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.testy9{
+    width: 100%;
+    height:98%;
+    border:1px solid brown;
+    border-radius: 20px;
+    outline: none;
+}
+.Academic_Details{
+    width:100%;
+    height: 30%;
+    border:1px solid green;
+}
+.Aca_Name{
+    width:100%;
+    height:15%;
+    border:1px solid rgb(59, 23, 219);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 190%;
+    text-decoration-line: underline;
+}
+.tabl{
+    width:100%;
+    height:85%;
+    border:1px solid red;
+}
+.wow{
+    width:100%;
+    height:100%;
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+.reo{
+    width: 100%;
+    height:100%;
+    /* border-radius: 100%; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    outline: none;
+}
+
+.Skills_parent{
+    width:100%;
+    height: 10%;
+    border:1px solid brown;
+    display:flex;
+}
+.skills_text{
+    width: 25%;
+    height:100%;
+    border:1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+
+}
+.skills{
+    width: 75%;
+    height:100%;
+    border:1px solid red;
+    
+}
+.skills_matter{
+    width:100%;
+    height: 100%;
+    outline: none;
+}
+.Hobbies_parent{
+        width:100%;
+        height:7%;
+        border:1px solid rgb(13, 1, 193);
+        display:flex;
+}
+.Hobbies_text{
+    width:25%;
+    height:100%;
+    border:1px solid brown;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+
+}
+.Hobbies_matter{
+    width:75%;
+    height: 100%;
+    border:1px solid green;
+}
+.Hobbies_content{
+    width:100%;
+    height: 100%;
+    border:1px solid black;
+    outline: none;
+
+}
+
+
+.profilepic{
+    width:100%;
+    height:4%;
+    border:1px solid green;
+    display:flex;
+}
+.Ppic_text{
+    width:25%;
+    height:100%;
+    border:1px solid brown;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+}
+.Ppic_document{
+    width:75%;
+    height: 100%;
+    border:1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picking{
+    width:50%;
+    height: 50%;
+   border:1px solid green;
+}
+
+
+.badges_parent{
+    width:100%;
+    height:4%;
+    border:1px solid green;
+    display:flex;
+}
+
+.badges_text{
+    width: 25%;
+    height:100%;
+    border:1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+
+}
+.badges{
+    width: 75%;
+    height:100%;
+    border:1px solid red;
+    
+}
+.badge_urls{
+    width:100%;
+    height: 100%;
+    outline: none;
+}
+
+
+.Declaration_parent{
+    width:100%;
+    height:6%;
+    border:1px solid red;
+}
+.Declaration_text{
+    width:100%;
+    height: 40%;
+    border:1px solid green;
+    font-size: 130%;
+    
+}
+.Declaration{
+    width: 100%;
+    height:58%;
+    border:1px solid black;
+    
+
+}
+.dec_matter{
+    width:100%;
+    height:100%;
+    outline: none;
+}
+.signature_parent{
+    width:100%;
+    height:3.2%;
+    border:1px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+.signature{
+    width: 50%;
+    height: 100%;
+    border:1px solid green;
+    
+}
+.sign_content{
+    width:100%;
+    height: 40%;
+    border:1px solid red;
+}
+.sign{
+    width:100%;
+    height: 60%;
+    /* border:1px solid rgb(214, 18, 126); */
+    background-color: transparent;
+}
+.signing_of{
+    width:100%;
+    height: 98%;
+    background-color: transparent;
+    outline: none;
+}
+.subm{
+    width:45%;
+    height:100%;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submiting{
+    width:40%;
+    height:70%;
+    border:1px solid brown;
+    background-color: transparent;
+}
+.submiting:hover{
+    width:50%;
+    height:80%;
+    border-radius: 20px;
+background-color: aqua;
+
+}
